@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background.jpg') no-repeat center center/cover;
+    background-size: cover;
+}
+
+/* Centered Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Welcome Box */
+.welcome-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Heading */
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s;
+    background-color: #007bff;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Secondary Button */
+.btn-secondary {
+    background-color: #28a745;
+}
+
+.btn-secondary:hover {
+    background-color: #1e7e34;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .welcome-box {
+        width: 90%;
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+/* Heading styles */
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Input group */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Extra links */
+.extra-links {
+    margin-top: 15px;
+}
+
+.extra-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.extra-links a:hover {
+    text-decoration: underline;
+}
